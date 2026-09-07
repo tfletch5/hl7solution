@@ -1,0 +1,48 @@
+import { Encounter } from '../shared/types';
+
+export const encounters: Encounter[] = [
+  {
+    id: 'ENC-HV-001',
+    facilityId: 'harborview',
+    patientMrn: 'HV-100782',
+    type: 'follow-up',
+    department: 'FM',
+    providerId: 'HV-PROV-001',
+    startDate: '2026-09-10T09:00:00Z',
+    reason: 'Hospital discharge follow-up',
+    status: 'planned',
+  },
+  {
+    id: 'ENC-HV-002',
+    facilityId: 'harborview',
+    patientMrn: 'HV-100814',
+    type: 'outpatient',
+    department: 'FM',
+    providerId: 'HV-PROV-001',
+    startDate: '2026-09-05T10:30:00Z',
+    reason: 'Congestive heart failure monitoring',
+    status: 'in-progress',
+  },
+  {
+    id: 'ENC-HV-003',
+    facilityId: 'harborview',
+    patientMrn: 'HV-100863',
+    type: 'outpatient',
+    department: 'FM',
+    providerId: 'HV-PROV-002',
+    startDate: '2026-09-06T14:00:00Z',
+    reason: 'Asthma follow-up after emergency visit',
+    status: 'planned',
+  },
+  {
+    id: 'ENC-HV-004',
+    facilityId: 'harborview',
+    patientMrn: 'HV-100904',
+    type: 'follow-up',
+    department: 'FM',
+    providerId: 'HV-PROV-002',
+    startDate: '2026-09-11T11:00:00Z',
+    reason: 'Post-operative recovery check',
+    status: 'planned',
+  },
+];
