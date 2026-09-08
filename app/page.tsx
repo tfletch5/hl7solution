@@ -12,6 +12,7 @@ import {
 } from "@/data";
 import { Hl7MessagePanel } from "@/app/components/hl7-message-panel";
 import { FhirCoveragePanel } from "@/app/components/fhir-coverage-panel";
+import { IntegrationPanel } from "@/app/components/integration-panel";
 
 const facilityMeta: Record<
   FacilityId,
@@ -366,6 +367,8 @@ export default function Home() {
                 <Hl7MessagePanel />
 
                 <FhirCoveragePanel />
+
+                <IntegrationPanel />
               </>
             ) : (
               <div className="rounded-xl border border-zinc-200 bg-white p-8 text-center text-zinc-500">
